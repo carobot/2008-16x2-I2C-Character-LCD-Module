@@ -18,7 +18,8 @@ void loop()
   // print anoter message, note spot and line counter start from 0
   lcd.setCursor(1,1);             // print text starting from spot 1, line 1
   lcd.print("HELLO WORLD!");
-  pause(1000);
+  delay(1000);
   lcd.setCursor(1,1);             // print text starting from spot 1, line 1
-  lcd.print("THANK YOU!   ");     // print space to reset characters
+  lcd.print(" THANK YOU! ");     // print space to reset characters
+  delay(1000);
 }
